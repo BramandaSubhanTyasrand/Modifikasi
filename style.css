@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: blanchedalmond;
+}
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header h1{
+    color: white;
+    margin-right: 160px;
+}
+#header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#header-img img{
+    width: 140px;
+    height: 100px;
+    float: left;
+}
+#menu-utama{
+    margin-top: 25px;
+    list-style: none;
+}
+#menu-utama img{
+    width: 10px;
+    height: 10px;
+}
+#menu-utama li{
+    float: left;
+    padding: 8px 20px;
+    border: solid white 1px;
+}
+#menu-utama li a{
+    color: white;
+    text-decoration: none;
+}
+#header form{
+    float: right;
+    margin-right: 10px;
+}
+#header form input{
+    border: none;
+    height: 20px;
+}
+.sidebar{
+    width: 100%;
+    height: 150px;
+    margin-top: 4px;
+    background-color: gray;
+    overflow: hidden;
+    border: 3px groove red;
+}
+.sidebar img{
+    width: 149px;
+    height: 149px;
+    border: brown groove 1px;
+    float: left;
+}
+.sidebar p{
+    color: white;
+    margin-right: 10px;
+    margin-left: 160px;
+    padding-top: 30px;
+}
+.sidebar a{
+    text-decoration: none;
+    color: yellow;
+}
